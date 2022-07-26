@@ -1,0 +1,10 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+.w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+.fa-anchor,.fa-coffee {font-size:200px}
+.w3-red, .w3-hover-red:hover {
+    color: #fff!important;
+    background-color: rgba(43, 43, 202, 0.411)!important;
+}
+html{
+    scroll-behavior: smooth;
+}
