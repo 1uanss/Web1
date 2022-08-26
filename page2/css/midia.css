@@ -1,0 +1,94 @@
+@media screen and (max-width: 1330px){
+    .logo img{
+        display: none;
+    }
+    .grid{
+        grid-template-columns: none;
+    }
+    .header{
+        width: 70%;
+        padding-left: 40px;
+    }
+    .section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    div .grid{
+        width: 100%;
+        height: auto;
+
+    }
+    .container{
+        width: 80%;
+        height: auto;
+    }
+    .download section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-left: 200px;
+    }
+    .download .grid>div:first-child{
+        order: 0;
+    }
+    .footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer .forn-pt{
+        width: 30%;
+        justify-content: space-between;
+    }
+}
+
+
+
+@media screen and (max-width:1064px){
+    
+    .main-child{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: 80%;
+    }
+    .main-child h1{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        padding-left: 300px;
+    }
+    .main-child input{
+        width: 100%;
+        height: auto; 
+    }
+    .forn-cta button{
+        width: 80%;
+    }
+    .logo img{
+        visibility: hidden;
+        height: auto;
+    }
+    .grid{
+        grid-template-columns: none;
+    }
+    .header{
+        width: 80%;
+        padding-left: 40px;
+    }
+    .section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
