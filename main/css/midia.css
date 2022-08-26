@@ -29,7 +29,6 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        /* padding-left: 200px; */
     }
     .download .grid>div:first-child{
         order: 0;
