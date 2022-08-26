@@ -29,7 +29,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        padding-left: 200px;
+        /* padding-left: 200px; */
     }
     .download .grid>div:first-child{
         order: 0;
@@ -52,6 +52,8 @@
     
     .main-child{
         display: flex;
+        align-items: center;
+        justify-content: center;
         flex-direction: column;
         height: auto;
         width: 80%;
@@ -60,7 +62,7 @@
         display: flex;
         align-items: center;
         text-align: center;
-        padding-left: 300px;
+        /* padding-left: 300px; */
     }
     .main-child input{
         width: 100%;
