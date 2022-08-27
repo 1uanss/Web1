@@ -155,7 +155,7 @@ main h1 {
     cursor: pointer;
     text-decoration: none;
     align-items: center;
-    background: #0F3D3E;
+    border:  1px solid #0F3D3E;
     color: white;
     border-radius: 7px;
     width: 60px;
