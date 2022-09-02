@@ -151,11 +151,11 @@ main h1 {
     font-size: 17px;
 }
 
-.logo {
+.imagen-familia {
     position: relative;
 }
 
-.logo img {
+.imagen-familia img {
     display: flex;
     justify-content: space-between;
     padding-left: 150px;
@@ -164,7 +164,7 @@ main h1 {
     height: 200px;
 }
 
-.download .grid>div:first-child {
+.lista-ordenacao .grid>div:first-child {
     order: 2;
 }
 
@@ -187,7 +187,7 @@ main h1 {
     margin-top: 25px;
     margin-bottom: 10px;
 }
-.point{
+.troca-pagina{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -201,7 +201,7 @@ main h1 {
     width: 50px;
     height: 50px;
 }
-.point:hover{
+.troca-pagina:hover{
     background: #052b2c;
     transition: all 1000ms;
 }

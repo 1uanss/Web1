@@ -1,5 +1,5 @@
 @media screen and (max-width: 1330px){
-    .logo img{
+    .imagen-familia img{
         display: none;
     }
     .grid{
@@ -24,13 +24,13 @@
         width: 80%;
         height: auto;
     }
-    .download section{
+    .lista-ordenacao  section{
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
     }
-    .download .grid>div:first-child{
+    .lista-ordenacao  .grid>div:first-child{
         order: 0;
     }
     .footer{
@@ -70,7 +70,7 @@
     .forn-cta button{
         width: 80%;
     }
-    .logo img{
+    .imagen-familia img{
         visibility: hidden;
         height: auto;
     }
