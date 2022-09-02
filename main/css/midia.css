@@ -24,15 +24,6 @@
         width: 80%;
         height: auto;
     }
-    .lista-ordenacao  section{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
-    .lista-ordenacao  .grid>div:first-child{
-        order: 0;
-    }
     .footer{
         display: flex;
         align-items: center;
