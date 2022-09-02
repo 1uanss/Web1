@@ -71,46 +71,6 @@ main h1 {
     margin-top: 10px;
 }
 
-.forn-cta {
-    display: grid;
-    grid-template-columns: 500px 250px;
-    margin-top: 25px;
-    margin-bottom: 10px;
-}
-
-.forn-cta input {
-    padding: 15px 10px;
-    font-size: 18px;
-    font-family: sans-serif;
-}
-
-.forn-cta button {
-    background: #0F3D3E;
-    outline: none;
-    border: none;
-    color: #E2DCC8;
-    font-size: 25px;
-    text-transform: uppercase;
-    cursor: pointer;
-}
-.forn-cta button:hover{
-    background: #052b2c;
-    transition: all 1000ms;
-}
-
-.forn-cta button::after {
-    content: '';
-    display: inline-block;
-    width: 10px;
-    height: 19px;
-    background: url('/img/seta.svg');
-    margin-left: 15px;
-}
-
-.forn-cta button :hover {
-    background: #140304;
-}
-
 .main p {
     font-size: 18px;
 }
@@ -164,11 +124,7 @@ main h1 {
     height: 200px;
 }
 
-.lista-ordenacao .grid>div:first-child {
-    order: 2;
-}
-
-.footer .forn-cta {
+.footer{
     margin-top: 0;
 }
 
