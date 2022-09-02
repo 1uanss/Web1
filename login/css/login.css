@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Merriweather:wght@300&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:wght@700&display=swap');
 *{
     padding: 0;
     margin: 0;
@@ -5,6 +6,7 @@
     font-size: 14px;
     
 }
+
 body{
     display: flex;
     align-items: center;
@@ -62,16 +64,6 @@ body{
     font-weight: 500;
     color: white;
 }
-.form-header h1::after{
-    content: '';
-    display: block;
-    width: 10rem;
-    height: 0.3rem;
-    background-color:#176163;
-    margin: 0 auto;
-    position: absolute;
-    border-radius: 10px;
-}
 .input-group{
     display: flex;
     flex-wrap: wrap;
@@ -114,7 +106,7 @@ color: black;
     flex-direction: column;
 }
 .continue-button button{
-    width: 70%;
+    width: 100px;
     height: 35px;
     margin-top: 2.1rem;
     border: none;
@@ -146,38 +138,4 @@ color: black;
     color: var(--color-beje-600);
     text-decoration: none;
     padding:1rem 0.10rem 0 0;
-}
-
-@media screen and (max-width: 1330px){
-    .form-image{
-        display: none;
-    }
-    .container{
-        width: 50%;
-    }
-    .form{
-        width: 100%;
-
-    }
-}
-@media screen and (max-width:1064px){
-    .container{
-        width: 90%;
-        height: auto;
-    }
-    .input-group{
-        flex-direction: column;
-        overflow-y: scroll;
-        max-height: 10rem;
-        padding-right: 5rem;
-    }
-    .gender-input{
-        margin-top: 2rem;
-    }
-    .gender-group{
-        flex-direction: column;
-    }
-    .gender-input{
-        margin-top: 0.5rem;
-    }
 }
