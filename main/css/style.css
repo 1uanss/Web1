@@ -56,15 +56,6 @@ body {
 
 }
 
-main h1 {
-    font-size: 30px;
-    max-width: calc(785px*0.5);
-}
-
-.main span {
-    font-size: 20px;
-    margin-top: 10px;
-}
 
 .main p {
     font-size: 18px;
