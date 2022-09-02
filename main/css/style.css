@@ -8,11 +8,6 @@ body {
     color: #0F3D3E;
 }
 
-img {
-    display: block;
-    max-width: 100%;
-}
-
 .container {
     max-width: 1130px;
     margin: 0 auto;
